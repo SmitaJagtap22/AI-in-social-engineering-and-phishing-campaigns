@@ -1,0 +1,24 @@
+From: security@your-bank.com
+To: customer@email.com
+Subject: URGENT: Your Account Requires Immediate Verification
+Date: Thu, 15 Jun 2023 14:30:45 +0000
+MIME-Version: 1.0
+Content-Type: text/html
+
+<html>
+<body>
+<p>Dear Customer,</p>
+
+<p>We detected unusual login activity on your bank account from a new device in Nigeria.</p>
+
+<p>To secure your account, please verify your identity immediately:</p>
+<p><a href="http://malicious-site.com/your-bank/login">Click here to verify your account</a></p>
+
+<p>If you don't verify within 24 hours, your account will be suspended.</p>
+
+<p>Thank you,<br>
+Bank Security Team</p>
+
+<p style="font-size:10px;color:#999;">This is an automated message - please do not reply</p>
+</body>
+</html>
