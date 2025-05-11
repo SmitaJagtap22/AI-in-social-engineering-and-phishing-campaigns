@@ -1,0 +1,17 @@
+Subject: Urgent: Your Account Has Been Suspended
+
+Dear Customer,
+
+We have detected suspicious activity on your account and it has been temporarily suspended for your protection.
+
+To restore access, please verify your account immediately by clicking the secure link below:
+
+http://secure-update-account.com/verify
+
+Failure to verify your information within 24 hours will result in permanent suspension.
+
+Thank you for your prompt attention to this matter.
+
+Sincerely,  
+Account Security Team  
+support@secure-update-account.com
