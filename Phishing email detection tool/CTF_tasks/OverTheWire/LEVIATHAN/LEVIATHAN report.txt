@@ -1,0 +1,78 @@
+Level 0
+Steps:
+Logged into Leviathan 0 via SSH.
+Moved to /home/leviathan0 and listed the files in the directory.
+Read the README file for further guidance.
+Tools Used:
+SSH, ls, cat
+Logic Behind the Solution:
+Found initial clues in the README to guide the next steps.
+
+
+Level 1
+Steps:
+SSH'd into Leviathan 1 and navigated to /home/leviathan1.
+Listened and explored hidden files (ls -la) for any hidden clues or passwords.
+Tools Used:
+ls -la to list all files (including hidden), cat to read files
+Logic Behind the Solution:
+Focused on uncovering hidden files that might contain clues or passwords.
+
+
+Level 2
+Steps:
+Logged into Leviathan 2 and went to /home/leviathan2.
+Listed the available files and checked the README.
+Conducted a search for hidden or suspicious files that could help in progressing to the next level.
+Tools Used:
+ls, ls -la, cat
+Logic Behind the Solution:
+Focused on inspecting hidden files for further clues or hints.
+
+Level 3
+Steps:
+SSH'd into Leviathan 3 and went to /home/leviathan3.
+Listed all files and examined them closely for any hidden information or clues.
+Used cat and ls -la to explore file content in detail.
+Tools Used:
+ls -la to list all files, cat to read them
+Logic Behind the Solution:
+Carefully examined all files, both visible and hidden, to understand the structure and find clues.
+
+Level 4
+Steps:
+Logged into Leviathan 4 and navigated to /home/leviathan4.
+Checked out the files and read the README.
+Looked for hidden files or suspicious content that could reveal the password.
+Tools Used:
+ls -la, cat, grep, strings
+Logic Behind the Solution:
+Used strings and grep to identify hidden messages or clues within files.
+
+Level 5
+Steps:
+Logged into Leviathan 5 and explored the /home/leviathan5 directory.
+Listed all available files, including hidden ones.
+Analyzed the files for any hidden data or clues.
+Tools Used:
+ls, ls -la, cat, strings, grep
+Logic Behind the Solution:
+Focused on finding hidden data or binary clues, then decoded them to find the next level's solution.
+
+Level 6
+Steps:
+SSH'd into Leviathan 6 and navigated to /home/leviathan6.
+Examined the files there and used file content analysis techniques to look for clues or passwords.
+Tools Used:
+ls -la, cat, grep, strings
+Logic Behind the Solution:
+Carefully searched through hidden files for encoded or encrypted data.
+
+Level 7
+Steps:
+Logged into Leviathan 7 and listed the files in the /home/leviathan7 directory.
+Focused on any hidden or encoded messages that could unlock the next clue.
+Tools Used:
+ls, ls -la, cat, strings
+Logic Behind the Solution:
+Extracted and decoded hidden messages that led to the solution.
