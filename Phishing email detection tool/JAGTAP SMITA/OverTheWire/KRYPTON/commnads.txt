@@ -1,0 +1,116 @@
+===Krypton Level 0 -> 1===
+nano krypton1
+ssh krypton1@krypton.labs.overthewire.org -p 2231
+ls
+ls -la
+cd /krypton
+ls
+cd krypton1
+ls
+cat README
+cat krypton2
+cat krypton3
+cat krypton2 | tr 'A-Z' 'N-ZA-M'
+logout
+
+===Krypton Level 1 -> 2===
+nano krypton2
+ssh krypton2@krypton.labs.overthewire.org -p 2231
+ls
+cd /krypton/
+cd krypton2
+ls
+ls -la
+mkdir /tmp/lev2-3
+cd /tmp/lev2-3
+ls
+ln -s /krypton/krypton2/keyfile.dat
+ls
+chmod 777 .
+echo "AAAAA" > encrypt.txt
+/krypton/krypton2/encrypt encrypt.txt
+ls -la
+cat ciphertext
+cd /krypton/krypton2
+cat krypton3 | tr 'A-Za-z' 'O-ZA-No-za-n'
+logout
+
+===Krypton Level 2 -> 3===
+nano krypton3
+ssh krypton3@krypton.labs.overthewire.org -p 2231
+ls
+cd /krypton/krypton3
+ls
+ls -la
+cat README
+cat found1
+cat found2
+cat found3
+cat HINT1
+cat HINT2
+for i in {A..Z}; do printf $i; cat found1 found2 found3 | tr -cd $i | wc -c; done
+for i in {A..Z}; do echo -n "$i"; cat found1 found2 found3 | tr -cd "$i" | wc -c; done | sort -k2 -nr
+cat krypton4 | tr 'SQJUBNGCDZVWMYTXKELAFIORHP' 'ETAOINSRHDLUCMFYWGPBVKXQJZ'
+cat krypton4 | tr 'SQJUBNGCDZVWMYTXKELAFIORHP' 'EATSORNIHCLDUPYFWGMBKVXQJZ'
+logout
+
+===Krypton Level 3 -> 4===
+nano krypton4
+ssh krypton4@krypton.labs.overthewire.org -p 2231
+cd /krypton/krypton4
+ls -la
+cat found1
+cat found2
+cat HINT
+nano found1
+cat found1
+cat krypton5
+logout
+
+===Krypton Level 4 -> 5===
+nano krypton5
+ssh krypton5@krypton.labs.overthewire.org -p 2231
+ls
+cd /krypton/krypton5
+ls
+cat found1
+cat found2
+cat found3
+ls -la
+cat krypton6
+logout
+
+===Krypton Level 5 -> 6===
+ls
+cd /krypton/krypton7
+cd ..
+cd krypton6
+ls
+ls -la
+ls onetime/
+cat krypton7
+cat HINT1
+cat HINT2
+mkdir /tmp/lev7
+cd /tmp/lev7
+ln -s /krypton/krypton6/s
+ln -s /krypton/krypton6/keyfile.dat
+ln -s /krypton/krypton6/krypton7
+ls
+chmod 777 .
+touch a.txt
+nano a.txt
+cat a.txt
+/krypton/krypton6/encrypt6 a.txt cipher.txt
+cat cipher.txt
+xxd -b a.txt
+xxd -b cipher.txt
+nano main.py
+python3 main.py /krypton
+
+====Krypton Level 6 -> 7===
+nano krypton7
+ssh krypton7@krypton.labs.overthewire.org -p 2231
+cd /krypton/krypton7
+ls
+cat README

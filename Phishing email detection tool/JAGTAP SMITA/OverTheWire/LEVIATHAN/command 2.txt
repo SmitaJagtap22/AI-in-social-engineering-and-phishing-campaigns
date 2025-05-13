@@ -1,0 +1,23 @@
+ssh leviathan0@leviathan.labs.overthewire.org -p 2223
+ls
+mkdir -p OTW/leviathan
+cd OTW/leviathan/
+touch 0.txt; echo "leviathan0" > 0.txt
+echo "3QJ3TgzHDq" > 1.txt
+sshpass -p 3QJ3TgzHDq ssh leviathan0@leviathan.labs.overthewire.org -p 2223
+sshpass -p 3QJ3TgzHDq ssh leviathan1@leviathan.labs.overthewire.org -p 2223
+echo "NsN1HwFoyN" > 2.txt
+sshpass -p NsN1HwFoyN ssh leviathan2@leviathan.labs.overthewire.org -p 2223
+echo "f0n8h2iWLP" > 3.txt
+ls
+sshpass -p f0n8h2iWLP ssh leviathan3@leviathan.labs.overthewire.org -p 2223
+echo "WG1egElCvO" > 4.txt
+ls
+sshpass -p WG1egElCvO ssh leviathan4@leviathan.labs.overthewire.org -p 2223
+echo "0dyxT7F4QD" > 5.txt
+sshpass -p 0dyxT7F4QD ssh leviathan5@leviathan.labs.overthewire.org -p 2223
+echo "szo7HDB88w" > 6.txt
+sshpass -p szo7HDB88w ssh leviathan6@leviathan.labs.overthewire.org -p 2223
+echo "qEs5Io5yM8" > 7.txt
+ls
+sshpass -p qEs5Io5yM8 ssh leviathan7@leviathan.labs.overthewire.org -p 2223
